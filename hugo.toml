@@ -1,4 +1,4 @@
-baseURL = 'prismatic-wisp-e7b6db.netlify.app'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-book'
