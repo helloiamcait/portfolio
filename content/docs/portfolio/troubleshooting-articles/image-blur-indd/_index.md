@@ -8,8 +8,8 @@ bookToC: true
 
 Are images in files exported from InDesign pixelated? There are two possible solutions depending on how the images look in the InDesign file:
 
-1. **If images look pixelated in InDesign,** then [Image resolution is too low](#image-resolution-is-too-low)
-2. **If images *do not* look pixelated in InDesign,** then [Performance Display settings are not optimized](#performance-display-settings-are-not-optimized)
+1. **If images look pixelated in InDesign,** then [Image resolution is too low](#problem-1-images-resolution-is-too-low)
+2. **If images *do not* look pixelated in InDesign,** then [Performance Display settings are not optimized](#problem-2-performance-display-settings-are-not-optimized)
 
 ---
 
