@@ -17,7 +17,7 @@ Are images in files exported from InDesign pixelated? There are two possible sol
 
 If the images exported from InDesign also look pixelated in the InDesign file, then the resolution of the images is too low. Follow these steps to check image resolution and replace low-resolution images:
 
-1. in InDesign, click on a pixelated image and choose **Window>Info** to open the Info panel. 
+1. In InDesign, click on a pixelated image and choose **Window>Info** to open the Info panel. 
 2. The **Effective ppi** in the Info Panel is the image resolution within the document, and it should match one of the following:
 	- **For print** optimal image resolution is 300 ppi. 
 	- **For screen display** optimal image resolution is 100 ppi. 
