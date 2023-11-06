@@ -1,33 +1,47 @@
 
 ---
-title: Images exported from InDesign are pixelated
+title: "Pixelated graphics in PDF exported from InDesign"
 bookToC: true
 ---
 
-# Images exported from InDesign are pixelated
+# Troubleshooting pixelated graphics in a PDF exported from InDesign
+---
 
-Are images in files exported from InDesign pixelated? There are two possible solutions depending on how the images look in the InDesign file:
+## Problem
 
-1. **If images look pixelated in InDesign,** then [Image resolution is too low](#problem-1-images-resolution-is-too-low)
-2. **If images *do not* look pixelated in InDesign,** then [Performance Display settings are not optimized](#problem-2-performance-display-settings-are-not-optimized)
+You export a PDF from InDesign and graphics in the PDF look pixelated.
+
+There are two main causes for pixelated graphics in a PDF exported from InDesign:
+-  Resolution of the graphic is too low
+-  Performace display settings are not optimized in InDesign
+
+Resolve this issue by using the steps in this article.
 
 ---
 
-## Problem 1: Images resolution is too low
+## Solution
 
-If the images exported from InDesign also look pixelated in the InDesign file, then the resolution of the images is too low. Follow these steps to check image resolution and replace low-resolution images:
+### **Step 1: Check the resolution of pixelated graphics**
 
-1. In InDesign, click on a pixelated image and choose **Window>Info** to open the Info panel. 
-2. The **Effective ppi** in the Info Panel is the image resolution within the document, and it should match one of the following:
-	- **For print** optimal image resolution is 300 ppi. 
-	- **For screen display** optimal image resolution is 100 ppi. 
-3. If the image resolution is below the optimal ppi, then you need to increase the image resolution from the image source file. 
-    -  **Note:** The process for optimizing image resolution differs from project-to-project. However, most graphics editing software will give you the option to change this variable in the export window.
-4. In InDesign, relink the pixelated image to the new high-resolution image. Adobe describes how to do this in the **Replace a link with a different source file** section of Adobe's [**Linked and embedded graphics**](https://helpx.adobe.com/indesign/using/graphics-links.html) help page.
+1. In InDesign, click on a graphic and choose **Window>Info** to open the Info panel. 
+2. The **Effective ppi** in the Info Panel represents the resolution of the graphic within the document. It should match one of the following:
+	- **For print:** optimal graphics display resolution is 300 ppi. 
+	- **For screen display:** optimal graphics display resolution is 100 ppi. 
+3. If the resolution is below the optimal ppi, then you need to increase the resolution of the graphic from its source file. 
+4. Repeat this process for all pixelated graphics.
 
-## Problem 2: Performance Display settings are not optimized
+> **Note:** The process for optimizing the resolution of graphics differs from project-to-project. However, most graphics editing software will give you the option to change the resolution when exporting.
 
-If the images exported from InDesign *are not* pixelated in the InDesign file, then you need to adjust the Performance Display settings by following these steps:
+### **Step 2: Relink to high-resolution graphic**
+
+1. In InDesign, click on a pixelated graphic. 
+2. Choose **Window>Links** to open the Links panel. 
+3. In the Links panel, click the Relink button ![Alt text](relink_button.png). 
+4. In the dialogue box that appears, select the source file for the high-resolution version of the graphic. 
+5. Click **Open**.
+6. Repeat this process for all pixelated graphics.
+
+### **Step 3: Optimize Performance Display settings in InDesign**
 
 1. Navigate to **InDesign > Preferences > Display Performance**
 2. Adjust the settings to match the following:
@@ -40,4 +54,9 @@ If the images exported from InDesign *are not* pixelated in the InDesign file, t
     * **Enable Anti-aliasing** is checked
     * **Greek Type Below:** 7 pt
 3. Click **OK**.
+
+### **Step 4: Export a new PDF**
+
+Export a PDF from InDesign again to confirm that graphis are not pixelated. If graphics are still pixelated, make sure that you completed **Steps 1–2** for all pixelated graphics. 
+
 ---
