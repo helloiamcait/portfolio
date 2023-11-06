@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Troubleshooting pixelated graphics in a PDF exported from InDesign # Problem # You export a PDF from InDesign and graphics in the PDF look pixelated.
+There are two main causes for pixelated graphics in a PDF exported from InDesign:
+Resolution of the graphic is too low Performace display settings are not optimized in InDesign Resolve this issue by using the steps in this article.
+Solution # Step 1: Check the resolution of pixelated graphics # In InDesign, click on a graphic and choose Window&gt;Info to open the Info panel.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Pixelated graphics in PDF exported from InDesign" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://iamcait.netlify.app/docs/portfolio/troubleshooting-articles/image-pixel-indd/" />
+<title>Pixelated graphics in PDF exported from InDesign | Cait Martin Newnham</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="stylesheet" href="/book.min.2c41492f36a8d4878d34d1d0ac0c29fdb471bb4465e0b535f2516498ed956721.css" integrity="sha256-LEFJLzao1IeNNNHQrAwp/bRxu0Rl4LU18lFkmO2VZyE=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.87e1c381177a1aead118315a8ea348400567858c40994a52b406ac808afb74b0.js" integrity="sha256-h&#43;HDgRd6GurRGDFajqNIQAVnhYxAmUpStAasgIr7dLA=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="https://iamcait.netlify.app/docs/portfolio/troubleshooting-articles/image-pixel-indd/index.xml" title="Cait Martin Newnham" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Cait Martin Newnham</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5ceb9a8fc4c061adb5971f1b226ee280" class="toggle" checked />
+    <label for="section-5ceb9a8fc4c061adb5971f1b226ee280" class="flex justify-between">
+      <a role="button" class="">Portfolio</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0bad92a1c9f7918324c44b3104278d4c" class="toggle" checked />
+    <label for="section-0bad92a1c9f7918324c44b3104278d4c" class="flex justify-between">
+      <a role="button" class="">Troubleshooting Articles</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/portfolio/troubleshooting-articles/image-pixel-indd/" class="active">Pixelated graphics in PDF exported from InDesign</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Pixelated graphics in PDF exported from InDesign</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#problem">Problem</a></li>
+    <li><a href="#solution">Solution</a>
+      <ul>
+        <li><a href="#step-1-check-the-resolution-of-pixelated-graphics"><strong>Step 1: Check the resolution of pixelated graphics</strong></a></li>
+        <li><a href="#step-2-relink-to-high-resolution-graphic"><strong>Step 2: Relink to high-resolution graphic</strong></a></li>
+        <li><a href="#step-3-optimize-performance-display-settings-in-indesign"><strong>Step 3: Optimize Performance Display settings in InDesign</strong></a></li>
+        <li><a href="#step-4-export-a-new-pdf"><strong>Step 4: Export a new PDF</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="troubleshooting-pixelated-graphics-in-a-pdf-exported-from-indesign">
+  Troubleshooting pixelated graphics in a PDF exported from InDesign
+  <a class="anchor" href="#troubleshooting-pixelated-graphics-in-a-pdf-exported-from-indesign">#</a>
+</h1>
+<hr>
+<h2 id="problem">
+  Problem
+  <a class="anchor" href="#problem">#</a>
+</h2>
+<p>You export a PDF from InDesign and graphics in the PDF look pixelated.</p>
+<p>There are two main causes for pixelated graphics in a PDF exported from InDesign:</p>
+<ul>
+<li>Resolution of the graphic is too low</li>
+<li>Performace display settings are not optimized in InDesign</li>
+</ul>
+<p>Resolve this issue by using the steps in this article.</p>
+<hr>
+<h2 id="solution">
+  Solution
+  <a class="anchor" href="#solution">#</a>
+</h2>
+<h3 id="step-1-check-the-resolution-of-pixelated-graphics">
+  <strong>Step 1: Check the resolution of pixelated graphics</strong>
+  <a class="anchor" href="#step-1-check-the-resolution-of-pixelated-graphics">#</a>
+</h3>
+<ol>
+<li>In InDesign, click on a graphic and choose <strong>Window&gt;Info</strong> to open the Info panel.</li>
+<li>The <strong>Effective ppi</strong> in the Info Panel represents the resolution of the graphic within the document. It should match one of the following:
+<ul>
+<li><strong>For print:</strong> optimal graphics display resolution is 300 ppi.</li>
+<li><strong>For screen display:</strong> optimal graphics display resolution is 100 ppi.</li>
+</ul>
+</li>
+<li>If the resolution is below the optimal ppi, then you need to increase the resolution of the graphic from its source file.</li>
+<li>Repeat this process for all pixelated graphics.</li>
+</ol>
+<blockquote>
+<p><strong>Note:</strong> The process for optimizing the resolution of graphics differs from project-to-project. However, most graphics editing software will give you the option to change the resolution when exporting.</p>
+</blockquote>
+<h3 id="step-2-relink-to-high-resolution-graphic">
+  <strong>Step 2: Relink to high-resolution graphic</strong>
+  <a class="anchor" href="#step-2-relink-to-high-resolution-graphic">#</a>
+</h3>
+<ol>
+<li>In InDesign, click on a pixelated graphic.</li>
+<li>Choose <strong>Window&gt;Links</strong> to open the Links panel.</li>
+<li>In the Links panel, click the Relink button <img src="relink_button.png" alt="Alt text" />.</li>
+<li>In the dialogue box that appears, select the source file for the high-resolution version of the graphic.</li>
+<li>Click <strong>Open</strong>.</li>
+<li>Repeat this process for all pixelated graphics.</li>
+</ol>
+<h3 id="step-3-optimize-performance-display-settings-in-indesign">
+  <strong>Step 3: Optimize Performance Display settings in InDesign</strong>
+  <a class="anchor" href="#step-3-optimize-performance-display-settings-in-indesign">#</a>
+</h3>
+<ol>
+<li>Navigate to <strong>InDesign &gt; Preferences &gt; Display Performance</strong></li>
+<li>Adjust the settings to match the following:
+<ul>
+<li><strong>Default View:</strong> High Quality</li>
+<li><strong>Preserve Object-Level Display Settings</strong> is unchecked</li>
+<li><strong>Adjust View Settings:</strong> High Quality</li>
+<li><strong>Raster Images:</strong> High Resolution</li>
+<li><strong>Vector Graphics:</strong> High Resolution</li>
+<li><strong>Transparency:</strong> High Quality</li>
+<li><strong>Enable Anti-aliasing</strong> is checked</li>
+<li><strong>Greek Type Below:</strong> 7 pt</li>
+</ul>
+</li>
+<li>Click <strong>OK</strong>.</li>
+</ol>
+<h3 id="step-4-export-a-new-pdf">
+  <strong>Step 4: Export a new PDF</strong>
+  <a class="anchor" href="#step-4-export-a-new-pdf">#</a>
+</h3>
+<p>Export a PDF from InDesign again to confirm that graphis are not pixelated. If graphics are still pixelated, make sure that you completed <strong>Steps 1–2</strong> for all pixelated graphics.</p>
+<hr>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#problem">Problem</a></li>
+    <li><a href="#solution">Solution</a>
+      <ul>
+        <li><a href="#step-1-check-the-resolution-of-pixelated-graphics"><strong>Step 1: Check the resolution of pixelated graphics</strong></a></li>
+        <li><a href="#step-2-relink-to-high-resolution-graphic"><strong>Step 2: Relink to high-resolution graphic</strong></a></li>
+        <li><a href="#step-3-optimize-performance-display-settings-in-indesign"><strong>Step 3: Optimize Performance Display settings in InDesign</strong></a></li>
+        <li><a href="#step-4-export-a-new-pdf"><strong>Step 4: Export a new PDF</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
