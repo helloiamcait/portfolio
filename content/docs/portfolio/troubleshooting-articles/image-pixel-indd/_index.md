@@ -21,7 +21,7 @@ Resolve this issue by using the steps in this article.
 
 ## Solution
 
-### **Step 1: Check the resolution of pixelated graphics**
+### Step 1: Check the resolution of pixelated graphics
 
 1. In InDesign, click on a graphic and choose **Window>Info** to open the Info panel. 
 2. The **Effective ppi** in the Info Panel represents the resolution of the graphic within the document. It should match one of the following:
@@ -32,7 +32,7 @@ Resolve this issue by using the steps in this article.
 
 > **Note:** The process for optimizing the resolution of graphics differs from project-to-project. However, most graphics editing software will give you the option to change the resolution when exporting.
 
-### **Step 2: Relink to high-resolution graphic**
+### Step 2: Relink to high-resolution graphic
 
 1. In InDesign, click on a pixelated graphic. 
 2. Choose **Window>Links** to open the Links panel. 
@@ -41,7 +41,7 @@ Resolve this issue by using the steps in this article.
 5. Click **Open**.
 6. Repeat this process for all pixelated graphics.
 
-### **Step 3: Optimize Performance Display settings in InDesign**
+### Step 3: Optimize Performance Display settings in InDesign
 
 1. Navigate to **InDesign > Preferences > Display Performance**
 2. Adjust the settings to match the following:
@@ -55,7 +55,7 @@ Resolve this issue by using the steps in this article.
     * **Greek Type Below:** 7 pt
 3. Click **OK**.
 
-### **Step 4: Export a new PDF**
+### Step 4: Export a new PDF
 
 Export a PDF from InDesign again to confirm that graphis are not pixelated. If graphics are still pixelated, make sure that you completed **Steps 1–2** for all pixelated graphics. 
 
