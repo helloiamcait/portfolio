@@ -119,7 +119,7 @@ export default function ProjectsSection() {
               tabIndex={0}
               onFocus={() => setActiveIndex(idx)}
               aria-label={`${p.title}. Project ${idx + 1} of ${projects.length}.`}
-              className="min-w-[85%] pt-0 snap-start sm:min-w-[520px] overflow-hidden focus-visible:ring-2 focus-visible:ring-ring"
+              className="min-w-[30%] pt-0 snap-start sm:min-w-[40%] overflow-hidden focus-visible:ring-2 focus-visible:ring-ring"
             >
               {p.image?.src ? (
                 <div className="relative aspect-[1.85/.85] w-full border-b">
@@ -128,7 +128,7 @@ export default function ProjectsSection() {
                     alt={p.image.alt}
                     fill
                     className="object-cover object-top"
-                    sizes="(max-width: 640px) 85vw, 520px"
+                    sizes="(max-width: 640px) 92vw, 520px"
                     priority={idx === 0}
                   />
                 </div>
