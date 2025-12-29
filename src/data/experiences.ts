@@ -23,7 +23,7 @@ export const experiences: ExperienceItem[] = [
   {
     company: "Nellie Health",
     title: "Design Director",
-    location: "Remote",
+    location: "Canada (Remote)",
     start: "Sep 2021",
     end: "May 2022",
     bullets: [
@@ -35,7 +35,7 @@ export const experiences: ExperienceItem[] = [
   {
     company: "York University",
     title: "Project Manager — Digital Health Research",
-    location: "Toronto, ON",
+    location: "Toronto, ON (Remote)",
     start: "Nov 2020",
     end: "Dec 2021",
     bullets: [
@@ -47,7 +47,7 @@ export const experiences: ExperienceItem[] = [
   {
     company: "Independent / Client Work",
     title: "Web Developer & Designer",
-    location: "Canada",
+    location: "Canada (Remote)",
     start: "Feb 2020",
     end: "May 2021",
     bullets: [
