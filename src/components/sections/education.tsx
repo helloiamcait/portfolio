@@ -32,6 +32,8 @@ export default function EducationSection() {
               <Badge variant="secondary">Databases</Badge>
               <Badge variant="secondary">Operating Systems</Badge>
               <Badge variant="secondary">Software Engineering</Badge>
+              <Badge variant="secondary">Machine Learning</Badge>
+              <Badge variant="secondary">Data Science</Badge>
             </div>
           </CardContent>
         </Card>
